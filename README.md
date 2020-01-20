@@ -8,9 +8,9 @@ Very simple yet powerful! It uses FortiOS API to perform the instructions
 over HTTPS. Make sure your fortigate interface is admin enabled over https.
 #
 First you need to generate an API token for your appliance.
-On your fortigate create an API Admin
-once configured it will generate a token and display it
-save it, you will need it for this automator to work.
+On your fortigate create an API Admin. Once configured it 
+will generate a token and display it. Save it, you will 
+need it for this automator to work.
 
 #
 1- Setup Environment
@@ -68,12 +68,15 @@ PUT : FortigateAPI-PUT-Module-from-EXCEL.py
 
 - This module updates an existing object on the fortigate via API.
 it will use an excel spreadsheet populated with all objects.
-the column name will be called in a for loop to perform the update
+the column name will be called in a "for loop" to perform the update
 for each data row. XLS file must be in script's working directory.
 
 ![Modules](/images/API-Modules-FortiOS-2.JPG)
 
 Example:
+This xls populates address objects to be updated using the API object 
+name in the column header, it will go thru each row in order
+![Modules](/images/API-Modules-FortiOS-3.JPG)
 
 
 
