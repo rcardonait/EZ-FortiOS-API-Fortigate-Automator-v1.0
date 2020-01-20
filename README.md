@@ -31,26 +31,26 @@ Allow this to run on your linux box:
  then run script:
  
  ./modules-install.sh
-#
+ 
 It will install the following pre-requesites:
 ![Modules](/images/API-Modules-FortiOS-1.JPG)
-#
+ 
 2- Run the FortiOS Automator Module.
 The Automator is composed of 3 items.
-#
+ 
 - An inventory file : fortigateinventory.txt
-#
+ 
  You can list endless Fortigates to configure
  on one shot.
  if you need to add fortigates to the file,
  please follow this syntax, everything separated with ","
- #
+  
  hostname,ipaddress,port,API-token,vdom
-#
+ 
  Example:
- #
+  
  Firewall1,10.10.20.49,8443,95x7srqd0djHsGd2d345f8wr8yy,root
- #
+  
 - An API Action file : api-call.txt
 !
 This file will contain the respective section in the Fortigate
@@ -58,14 +58,14 @@ database. Depending on what you need to autoconfigure, you'll
 need the right location in hardware to push the configuration.
 (Refer to the Fortinet's API documentation for location specifics.)
 
-#
+ 
 Example if I need to configure address objects:
  firewall,address
 
 - Use one of the scripts to perform the each API function:
 
 GET -- PUT -- POST -- DELETE
-#
+ 
 GET :  FortigateAPI-GET-Module-to-EXCEL.py
 
 - This module reads an API location and extracts its data, it then
@@ -85,7 +85,7 @@ Example:
 This xls populates address objects to be updated using the API object 
 name in the column header, it will go thru each row in order
 ![Modules](/images/API-Modules-FortiOS-3.JPG)
-#
+ 
 PUT : FortigateAPI-POST-Module-from-EXCEL.py
 
 - This module creates a new object on the fortigate via API.
@@ -96,7 +96,7 @@ for each data row. XLS file must be in script's working directory.
 Example:
 Im using the same addresses.xls as example
 ![Modules](/images/API-Modules-FortiOS-3.JPG)
-#
+ 
 DELETE
 - This module deletes any object on the fortigate via API.
 it will use an excel spreadsheet populated with all object names to
@@ -119,10 +119,10 @@ replace with correct variables.
 
 
 API Path /firewall/service/custom
-#
+ 
 Update api-call.txt 
   firewall,service,custom
-#
+ 
 Update addresses.xls
 column-1: name , column-2: tcp-portrange or udp-portrange, column-3: protocol
 ![Modules](/images/API-Modules-FortiOS-5.JPG)
