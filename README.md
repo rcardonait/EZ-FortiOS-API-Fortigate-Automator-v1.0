@@ -68,13 +68,13 @@ Example if I need to configure address objects:
 
 GET -- PUT -- POST -- DELETE
  
-GET :  FortigateAPI-GET-Module-to-EXCEL.py
+GET :  FortigateAPI-Module-GET-to-EXCEL-FortiOS-6.0.py
 
 - This module reads an API location and extracts its data, it then
 parses out into an excel file that will be stored on the same working directory.
 The API data location on the fortigate is defined in the "api-call.txt"
 #
-PUT : FortigateAPI-PUT-Module-from-EXCEL.py
+PUT : FortigateAPI-PUT-Module-from-EXCEL-FortiOS-6.0.py
 
 - This module updates an existing object on the fortigate via API.
 it will use an excel spreadsheet populated with all objects.
@@ -88,7 +88,7 @@ This xls populates address objects to be updated using the API object
 name in the column header, it will go thru each row in order
 ![Modules](/images/API-Modules-FortiOS-3.JPG)
  
-PUT : FortigateAPI-POST-Module-from-EXCEL.py
+PUT : FortigateAPI-POST-Module-from-EXCEL-FortiOS-6.0.py
 
 - This module creates a new object on the fortigate via API.
 it will use an excel spreadsheet populated with all objects.
@@ -114,7 +114,7 @@ Per FortiOS API, im calling: firewall/address
 ![Modules](/images/API-Modules-FortiOS-4.JPG)
 
 Lets assume you need to change the script to create service objects.
-Edit the POST Script : FortigateAPI-POST-Module-from-EXCEL.py
+Edit the POST Script : FortigateAPI-POST-Module-from-EXCEL-FortiOS-6.0.py
 replace with correct variables.
 
 ![Modules](/images/API-Modules-FortiOS-6.JPG)
