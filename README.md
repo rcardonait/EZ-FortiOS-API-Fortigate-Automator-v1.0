@@ -1,9 +1,9 @@
 # EZ-FortiOS-API-Fortigate-Automator
 By Rene Cardona www.rcitnet.com
-*
+#
 A Fortigate FortiOS API Automation-Script. 
 Easy to use! - Automate bulk configs in seconds reading excel files.
-
+#
 Very simple yet powerful! It uses FortiOS API to perform the instructions
 over HTTPS. Make sure your fortigate interface is admin enabled over https.
 #
@@ -53,7 +53,7 @@ need the right location in hardware to push the configuration.
 #
 Example if I need to configure address objects:
 #
-firewall,address
+      firewall,address
 
 - Use one of the scripts to perform the each API function:
 
