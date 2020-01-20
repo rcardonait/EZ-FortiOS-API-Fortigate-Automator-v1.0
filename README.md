@@ -16,7 +16,8 @@ save it, you will need it for this automator to work.
 1- Setup Environment
 
 Download all files in this git then execute :modules-install.sh
- Allow this to run on your linux box:
+#
+Allow this to run on your linux box:
  #
    chmod 755 modules-install.sh
  #
