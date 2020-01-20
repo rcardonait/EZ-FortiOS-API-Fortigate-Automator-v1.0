@@ -28,8 +28,9 @@ The Automator is composed of 3 items.
  please follow this syntax, everything separated with ","
  hostname,IPADDRESS,PORT,API-TOKEN,vDOM
  Example:
+ #
  Firewall1,10.10.20.49,8443,95x7srqd0djHsGd2d345f8wr8yy,root
- 
+ #
 - An API Action file : api-call.txt
 !
 This file will contain the respective section in the Fortigate
@@ -37,8 +38,9 @@ database. Depending on what you need to autoconfigure, you'll
 need the right location in hardware to push the configuration.
 (Refer to the Fortinet's API documentation for location specifics.)
 
-
+#
 Example if I need to configure address objects:
+#
 firewall,address
 
 
