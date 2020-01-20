@@ -1,5 +1,6 @@
 # EZ-FortiOS-API-Fortigate-Automator
 By Rene Cardona www.rcitnet.com
+*
 A Fortigate FortiOS API Automation-Script. 
 Easy to use! - Automate bulk configs in seconds reading excel files.
 
