@@ -69,7 +69,7 @@ GET :  FortigateAPI-GET-Module-to-EXCEL.py
 
 - This module reads an API location and extracts its data, it then
 parses out into an excel file that will be stored on the same working directory.
-location is defined in the "api-call.txt"
+The API data location on the fortigate is defined in the "api-call.txt"
 #
 PUT : FortigateAPI-PUT-Module-from-EXCEL.py
 
