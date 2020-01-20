@@ -105,4 +105,17 @@ identify and delete. The column name will be called in a
 
 Modifying scripts API values:
 
+Currently the scripts in this git are configured for firewall address objects API.
+Per FortiOS API, im calling: firewall/address
+![Modules](/images/API-Modules-FortiOS-4.JPG)
+
+Lets assume you need to change the script to create service objects.
+Edit the POST Script : FortigateAPI-POST-Module-from-EXCEL.py
+
+![Modules](/images/API-Modules-FortiOS-4.JPG)
+
+API Path "/firewall/service/custom"
+api-call.txt 
+
+
 
