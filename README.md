@@ -91,8 +91,6 @@ the column name will be called in a "for loop" to perform the update
 for each data row. XLS file must be in script's working directory.
 
 Example:
-This xls populates address objects to be created using the API object 
-name in the column header, it will go thru each row in order.
 Im using the same addresses.xls as example
 ![Modules](/images/API-Modules-FortiOS-3.JPG)
 #
