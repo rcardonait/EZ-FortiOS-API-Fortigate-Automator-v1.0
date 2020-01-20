@@ -37,7 +37,7 @@ The Automator is composed of 3 items.
  if you need to add fortigates to the file,
  please follow this syntax, everything separated with ","
  #
- hostname,IPADDRESS,PORT,API-TOKEN,vDOM
+ hostname,ipaddress,port,API-token,vdom
 #
  Example:
  #
