@@ -6,11 +6,11 @@ Very simple yet powerful!
 1- Setup Environment
 
 On this git download the file :modules-install.sh
-Allow this to run on your linux box:
-chmod 755 modules-install.sh
-then run script:
+ Allow this to run on your linux box:
+ chmod 755 modules-install.sh
+ then run script:
 #
-./modules-install.sh
+ ./modules-install.sh
 #
 It will install the following pre-requesites:
 ![Modules](/images/API-Modules-FortiOS-1.JPG)
