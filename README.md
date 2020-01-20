@@ -15,6 +15,8 @@ On your fortigate create an API Admin. Once configured it
 will generate a token and display it. Save it, you will 
 need it for this automator to work.
 
+It uses python "requests" to translate Human HTTP API calls.
+
 #
 1- Setup Environment
 
@@ -80,8 +82,28 @@ Example:
 This xls populates address objects to be updated using the API object 
 name in the column header, it will go thru each row in order
 ![Modules](/images/API-Modules-FortiOS-3.JPG)
+#
+PUT : FortigateAPI-POST-Module-from-EXCEL.py
 
+- This module creates a new object on the fortigate via API.
+it will use an excel spreadsheet populated with all objects.
+the column name will be called in a "for loop" to perform the update
+for each data row. XLS file must be in script's working directory.
 
+Example:
+This xls populates address objects to be created using the API object 
+name in the column header, it will go thru each row in order.
+Im using the same addresses.xls as example
+![Modules](/images/API-Modules-FortiOS-3.JPG)
+#
+DELETE
+- This module deletes any object on the fortigate via API.
+it will use an excel spreadsheet populated with all object names to
+identify and delete. The column name will be called in a 
+"for loop". XLS file must be in script's working directory.
 
+---------------------------------------------------------
+
+Modifying scripts API values:
 
 
