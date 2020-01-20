@@ -22,7 +22,9 @@ It uses python "requests" to translate Human HTTP API calls.
 #
 1- Setup Environment
 
-Download all files in this git then execute :modules-install.sh
+Download all files in this git then execute:
+ 
+modules-install.sh
  
 Allow this to run on your linux box:
   
