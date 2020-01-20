@@ -1,11 +1,11 @@
 # EZ-FortiOS-API-Fortigate-Automator
 By Rene Cardona www.rcitnet.com
-#
+ 
 LinkedIn : https://www.linkedin.com/in/rene-cardona/
  
 Tested on FortiOS 6.x
-#
-#
+
+ 
 A Fortigate FortiOS API Automation-Script. 
 Easy to use! - Automate bulk configs in seconds reading excel files.
 #
@@ -23,13 +23,13 @@ It uses python "requests" to translate Human HTTP API calls.
 1- Setup Environment
 
 Download all files in this git then execute :modules-install.sh
-#
+ 
 Allow this to run on your linux box:
- #
+  
    chmod 755 modules-install.sh
- #
+  
  then run script:
-#
+ 
  ./modules-install.sh
 #
 It will install the following pre-requesites:
