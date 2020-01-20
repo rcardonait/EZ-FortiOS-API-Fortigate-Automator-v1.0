@@ -28,6 +28,7 @@ The Automator is composed of 3 items.
  please follow this syntax, everything separated with ","
  #
  hostname,IPADDRESS,PORT,API-TOKEN,vDOM
+#
  Example:
  #
  Firewall1,10.10.20.49,8443,95x7srqd0djHsGd2d345f8wr8yy,root
