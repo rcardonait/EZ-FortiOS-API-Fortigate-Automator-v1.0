@@ -2,6 +2,7 @@
 By Rene Cardona www.rcitnet.com
 #
 LinkedIn : https://www.linkedin.com/in/rene-cardona/
+Tested on FortiOS 6.x
 #
 #
 A Fortigate FortiOS API Automation-Script. 
