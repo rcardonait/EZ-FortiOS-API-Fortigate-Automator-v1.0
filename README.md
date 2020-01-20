@@ -111,11 +111,26 @@ Per FortiOS API, im calling: firewall/address
 
 Lets assume you need to change the script to create service objects.
 Edit the POST Script : FortigateAPI-POST-Module-from-EXCEL.py
+replace with correct variables.
 
-![Modules](/images/API-Modules-FortiOS-4.JPG)
+![Modules](/images/API-Modules-FortiOS-6.JPG)
 
-API Path "/firewall/service/custom"
-api-call.txt 
+
+API Path /firewall/service/custom
+#
+Update api-call.txt 
+  firewall,service,custom
+#
+Update addresses.xls
+column-1: name , column-2: tcp-portrange or udp-portrange, column-3: protocol
+![Modules](/images/API-Modules-FortiOS-5.JPG)
+
+We need to update the JSON command to perform the config, it's stored in
+data1 variable.
+
+![Modules](/images/API-Modules-FortiOS-7.JPG)
+
+I hope it helps you regain some time spent manually configuring your Fortigate Firewall.
 
 
 
