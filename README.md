@@ -99,7 +99,7 @@ Example:
 Im using the same addresses.xls as example
 ![Modules](/images/API-Modules-FortiOS-3.JPG)
  
-DELETE
+DELETE : FortigateAPI-DELETE-Module-from-EXCEL-FortiOS-6.0.py
 - This module deletes any object on the fortigate via API.
 it will use an excel spreadsheet populated with all object names to
 identify and delete. The column name will be called in a 
