@@ -52,8 +52,7 @@ need the right location in hardware to push the configuration.
 
 #
 Example if I need to configure address objects:
-#
-      firewall,address
+ firewall,address
 
 - Use one of the scripts to perform the each API function:
 
