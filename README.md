@@ -71,8 +71,7 @@ it will use an excel spreadsheet populated with all objects.
 the column name will be called in a for loop to perform the update
 for each data row. XLS file must be in script's working directory.
 
-
-
+![Modules](/images/API-Modules-FortiOS-2.JPG)
 
 Example:
 
