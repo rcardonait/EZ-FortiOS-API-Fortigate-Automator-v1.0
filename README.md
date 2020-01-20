@@ -21,7 +21,7 @@ It will install the following pre-requesites:
 The Automator is composed of 3 items.
 #
 - An inventory file : fortigateinventory.txt
-!
+#
  You can list endless Fortigates to configure
  on one shot.
  if you need to add fortigates to the file,
